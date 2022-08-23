@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "consumoApi": "node src/callback/consumoApi.js "
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/heokim/javascript-asincronismo/issues"
   },
-  "homepage": "https://github.com/heokim/javascript-asincronismo#readme"
+  "homepage": "https://github.com/heokim/javascript-asincronismo#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
