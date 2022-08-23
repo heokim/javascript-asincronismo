@@ -8,7 +8,8 @@
     "promise": "node src/promise/consumoApi.js",
     "post": "node src/promise/postApi.js",
     "delete": "node src/promise/deleteApi.js",
-    "update": "node src/promise/updateApi.js"
+    "update": "node src/promise/updateApi.js",
+    "async": "node src/async_await/reto.js "
   },
   "repository": {
     "type": "git",
