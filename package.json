@@ -9,7 +9,8 @@
     "post": "node src/promise/postApi.js",
     "delete": "node src/promise/deleteApi.js",
     "update": "node src/promise/updateApi.js",
-    "async": "node src/async_await/reto.js "
+    "async": "node src/async_await/reto.js",
+    "generator": "node src/generator/index.js"
   },
   "repository": {
     "type": "git",
