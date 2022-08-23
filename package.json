@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "consumoApi": "node src/callback/consumoApi.js "
+    "consumoApi": "node src/callback/consumoApi.js ",
+    "promise": "node src/promise/consumoApi.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/heokim/javascript-asincronismo#readme",
   "dependencies": {
+    "node-fetch": "^3.2.10",
     "xmlhttprequest": "^1.8.0"
-  }
+  },
+  "type": "module"
 }
