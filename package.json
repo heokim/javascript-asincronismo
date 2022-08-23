@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "consumoApi": "node src/callback/consumoApi.js ",
-    "promise": "node src/promise/consumoApi.js"
+    "promise": "node src/promise/consumoApi.js",
+    "post": "node src/promise/postApi.js",
+    "delete": "node src/promise/deleteApi.js",
+    "update": "node src/promise/updateApi.js"
   },
   "repository": {
     "type": "git",
